@@ -197,7 +197,7 @@
   <section id="portfolio" class="portfolio">
     <h2>Personal Portfolio</h2>
     <div class="about">
-      <p>Hello! I’m <b>Karthikeyan S G</b>, a passionate web developer skilled in HTML, CSS, and JavaScript.  
+      <p>Hello! I’m <b>Jaswanth N</b>, a passionate web developer skilled in HTML, CSS, and JavaScript.  
       I enjoy creating interactive, responsive websites that deliver smooth user experiences.</p>
     </div>
 
@@ -213,7 +213,7 @@
 
     <div class="contact">
       <h3>Contact Me</h3>
-      <p>Email: karthikeyan@example.com | GitHub: github.com/karthikeyansg</p>
+      <p>Email: jaswanth5538@gmail.com | GitHub: github.com/Jaswanth N</p>
     </div>
   </section>
 
@@ -249,7 +249,7 @@
   </section>
 
   <footer>
-    <p>© 2025 Karthikeyan S G | All rights reserved.</p>
+    <p>© 2025 Jaswanth N | All rights reserved.</p>
   </footer>
 
   <script>
@@ -295,11 +295,13 @@
 
     /* ==================== PRODUCT LISTING ==================== */
     const products = [
-      { name: "Smartphone", category: "electronics", price: 699, rating: 4.5, img: "https://via.placeholder.com/200" },
-      { name: "T-Shirt", category: "clothing", price: 29, rating: 4.1, img: "https://via.placeholder.com/200" },
-      { name: "Headphones", category: "electronics", price: 99, rating: 4.7, img: "https://via.placeholder.com/200" },
-      { name: "Watch", category: "accessories", price: 199, rating: 4.3, img: "https://via.placeholder.com/200" },
-      { name: "Jeans", category: "clothing", price: 59, rating: 4.0, img: "https://via.placeholder.com/200" }
+    
+  { name: "Smartphone", category: "electronics", price: 699, rating: 4.5, img: "images/Smartphone.jpg" },
+  { name: "T-Shirt", category: "clothing", price: 29, rating: 4.1, img: "images/T-Shirt.jpg" },
+  { name: "Headphones", category: "electronics", price: 99, rating: 4.7, img: "images/Headphones.jpg" },
+  { name: "Watch", category: "accessories", price: 199, rating: 4.3, img: "images/watch.jpg" },
+  { name: "Jeans", category: "clothing", price: 59, rating: 4.0, img: "images/Jeans.jpg" }
+
     ];
 
     const productContainer = document.getElementById("product-container");
